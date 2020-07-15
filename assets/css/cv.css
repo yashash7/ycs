@@ -1,0 +1,108 @@
+body {
+    background-color: seagreen;
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.header {
+    font-weight: bolder;
+    color: antiquewhite;
+    height: 160px;
+    padding: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(to right, teal, seagreen, teal, seagreen);
+}
+.hr2 {
+    padding: 7px;
+    border: 2px solid azure;
+    border-radius: 2px;
+    padding: 3px;
+    color: antiquewhite;
+    font-size: larger;
+    font-weight: bolder;
+}
+#dt {
+    color: black;
+}
+.btn {
+    color: azure;
+    font-size:larger;
+    font-weight: 600;
+}
+.btn:hover {
+    color: chocolate;
+    text-decoration: none;
+}
+.active {
+    padding: 7px 16px 7px 16px;
+    border: 4px solid darkslateblue;
+    border-radius: 25px;
+}
+.left {
+    float: left;
+    padding: 7px;
+    margin-right: 35px;
+}
+.right {
+    color: black;
+    float: left;
+    text-align: left;
+    margin-left: 35px;
+}
+.skills {
+    overflow: visible;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: seashell;
+    text-decoration: none;
+}
+p {
+    color: black;
+    font-size: medium;
+}
+code {
+    font-size: 16px;
+    color: black;
+}
+.footer {
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 70px;
+    padding: 25px;
+    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
+}
+.soc {
+    color: black;
+    font-size: x-large;
+}
+.soc:hover {
+    color: rgba(0, 0, 0, 0.5);
+    transition: ease-out 3ms;
+}
+.cnt {
+    font-size: 1.25em;
+    color: gainsboro;
+    font-weight: bolder;
+    background-color: darkslategray;
+    text-decoration: none;
+    border-radius: 7px;
+}
+.cnt:hover {
+    color: darkseagreen;
+}
+th {
+    padding: 25px;
+}
+@media screen and (max-width: 800px) {
+    p{ 
+        font-size: smaller;
+    }
+    .left, .right {
+        margin: 7px;
+        padding: 3px;
+    }
+}

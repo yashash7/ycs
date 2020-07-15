@@ -1,0 +1,178 @@
+body {
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background: seagreen;
+}
+
+hr {
+    border-top-style: dotted;
+    border-width: 7px;
+    width: 7%;
+    margin: auto;
+    margin-bottom: 70px; 
+}
+.header {
+    width: 100%;
+    position: fixed;
+    color: antiquewhite;
+    height: 110px;
+    padding: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(to right, teal, seagreen, teal, seagreen);
+}
+.c1 {
+    margin-top: 97px;
+}
+.res {
+    float: right;
+    text-decoration: none;
+    margin: 25px;
+    color: antiquewhite; 
+    font-size: larger;
+}
+.res:hover {
+    text-decoration: none;
+    color: azure;
+    padding: 3px;
+    border: 2px solid azure;
+    border-style: outset;
+    border-radius: 7px;
+}
+#hd {
+    font-size: xx-large;
+}
+#hdr {
+    font-size: xx-large;
+    padding: 25px;
+}
+.btn {
+    color: azure;
+    font-size:larger;
+    font-weight: 600;
+}
+.btn:hover {
+    color: chocolate;
+    text-decoration: none;
+}
+
+.sec {
+    margin-left: 7%;
+    margin-bottom: 43px;
+    padding: 43px;
+    text-align: left;
+    font-size: 1.43em;
+    line-height: 2;
+}
+.mthin {
+    width: 250px;
+}
+img {
+    width: 25%;
+}
+.top {
+    text-align: center; 
+    padding: 25px;
+    line-height: 3;
+    font-size: 1.75em;
+}
+.rep {
+    color: black;
+    text-decoration: none;
+}
+.rep:hover {
+    color: seashell;
+    text-decoration: none;    
+}
+code {
+    font-size: 16px;
+    color: black;
+}
+.footer {
+    font-size: x-large;
+    text-align: left;
+    height: 70px;
+    padding: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cnt {
+    font-size: larger;
+    color: darkslateblue;
+}
+.cnt:hover {
+    font-weight: bolder;
+    color: darkseagreen;
+    background-color: darkslategray;
+    text-decoration: none;
+    border-radius: 7px;
+}
+.code {
+    margin-left: 25%;
+}
+.code1 {
+    margin-left: 20%;
+}
+.soc {
+    color: black;
+    font-size: x-large;
+}
+.soc:hover {
+    color: rgba(0, 0, 0, 0.5);
+    transition: ease-out 16ms;
+}
+@media screen and (max-width: 800px) {
+    .mthin {
+        width: 120px;
+    }
+    .header {
+        padding: 5px;
+        font-size: xx-small;
+        height: 25px;
+    }
+    #hd {
+        font-size: x-small;
+    }
+    #hdr {
+        font-size: x-small;
+        padding: 5px;
+    }
+    .c1 {
+        margin: 0;
+    }
+    .res {
+        margin: 5px;
+        font-size: xx-small;
+    }
+    .res:hover {
+        padding: 0;
+        font-size: xx-small;
+    }
+    p {
+        font-size: 16px;
+    }
+    .footer {
+        text-align: center;
+        height: auto;
+        padding: 7px;
+        font-size: xx-small;
+    }
+    hr {
+        width: 7%;
+        border-width: 2px;
+    }
+    .sec {
+        font-size: 0.7em;
+    }
+    .btn {
+        font-size: xx-small;
+    }
+    .code, .code1 {
+        margin-left: 25px;
+        font-size: xx-small;
+    }
+    .soc, #xxsm1 {
+        font-size: xx-small;
+    }
+    .cnt {
+        font-size: xx-small;
+    }
+}
