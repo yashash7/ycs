@@ -4,6 +4,10 @@ body {
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 .header {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
     font-weight: bolder;
     color: antiquewhite;
     height: 160px;
@@ -106,6 +110,9 @@ th {
         padding: 3px;
     }
     .header {
+        top: 0;
+        left: 0;
+        right: 0;
         width: 100%;
         height: auto;
         font-size: xx-small;

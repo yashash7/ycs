@@ -1,9 +1,9 @@
 function datetoday() {
-    let today = new Date();
-    let date = today.getDate();
-    let month = today.getUTCMonth()+1;
-    let year = today.getFullYear();
-    let a = (date + "-" + month + "-" + year);
+    const today = new Date();
+    const date = today.getDate();
+    const month = today.getUTCMonth()+1;
+    const year = today.getFullYear();
+    const a = (date + "-" + month + "-" + year);
     console.log(a);
     document.getElementById('dt').innerHTML = 'Date:  ' + a;
 }
