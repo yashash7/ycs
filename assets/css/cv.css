@@ -105,4 +105,9 @@ th {
         margin: 7px;
         padding: 3px;
     }
+    .header {
+        width: 100%;
+        height: auto;
+        font-size: xx-small;
+    }
 }
