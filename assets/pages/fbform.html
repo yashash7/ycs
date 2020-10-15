@@ -11,8 +11,8 @@
         <title>Give Feedback | Report Abuse</title>
     </head>
 
-    <body>
-        <form class="form w3-display-middle" method="POST" action="" name="Feedback">
+    <body id="top">
+        <form class="form w3-display-middle" method="POST" action="" name="Feedback" style="color: black;">
             <h3>Feedback | Report Abuse</h3><hr><br>
             <label>Name: &nbsp; <input type="text" id="name" placeholder="Enter your name" required></label><br><br>
             <label>Email: &nbsp; <input type="email" id="mail" placeholder="Enter your mail address" required></label><br><br>
@@ -35,12 +35,15 @@
             <input type="checkbox" id="copyright" name="copyright" value="fb3">
             <label for="copyright">Copyrights Issues</label>&nbsp;&nbsp;&nbsp;
             <input type="checkbox" id="other" name="other" value="oth">
-            <label for="other">other</label><br>
+            <label for="other">other</label><br><br>
             <label>Describe your issue</label><br>
             <textarea id="issuedesc" name="issuedesc" rows="5" cols="34"></textarea>
             <label>Suggestions for Improvement</label><br>
             <textarea id="issuedesc" name="issuedesc" rows="2" cols="34"></textarea><br><br>
             <button class="submit w3-btn">Submit</button>
         </form>
+        <code class="w3-display-bottomright" style="position: fixed; margin-right: 7px;"> Go to Top </code>
+        <h1><a href="#top"><i class="fa fa-chevron-up top w3-display-bottomright" style="color: black;"></i></a></h1>
+        <!--<h1 class="w3-display-bottomright"> Go To Top </h1>-->
     </body>
 </html>

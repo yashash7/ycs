@@ -1,7 +1,18 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: seagreen;
     text-align: center;
     font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.top {
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    padding: 3px;
+    position: fixed;
 }
 .header {
     top: 0;

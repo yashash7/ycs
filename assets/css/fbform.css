@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     text-align: center;
     font-family: "Comic Sans MS", cursive, sans-serif;
@@ -31,5 +34,17 @@ h3, p {
     border-radius: 5px;
     margin-left: 40%;
     text-align: center;
-
+    
+}
+.submit:hover {
+    background: linear-gradient(to right, seagreen, teal);
+}
+.top {
+    border: 2px solid black;
+    border-radius: 50%;
+    bottom: 0;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    padding: 3px;
+    position: fixed;
 }
