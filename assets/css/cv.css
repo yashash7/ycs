@@ -71,22 +71,6 @@ code {
     font-size: 16px;
     color: black;
 }
-.footer {
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    height: 70px;
-    padding: 25px;
-    box-shadow: 0 4px 8px 0 rgb(0, 0, 0), 0 6px 20px 0 rgb(0, 0, 0);
-}
-.soc {
-    color: black;
-    font-size: x-large;
-}
-.soc:hover {
-    color: rgba(0, 0, 0, 0.5);
-    transition: ease-out 3ms;
-}
 .cnt {
     font-size: 1.25em;
     color: gainsboro;

@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-image: linear-gradient(to right, teal, seagreen);
+    background: seagreen;
+}
+.form {
+    color: antiquewhite;
+    font-size: large;
+    padding: 16px 25px 25px 25px;
+    margin: 70px 0px 70px 0px;
+    border-radius: 7px;
+    width: 40%;
+    height: auto;
+    text-align: left;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    background-color: seagreen;
+}
+label {
+    font-weight: bolder;
+}
+code {
+    font-size: medium;
+    color: black;
+}
+h3, p {
+    text-align: center;
+}
+.submit {
+    border: 2px solid azure;
+    border-radius: 5px;
+    margin-left: 40%;
+    text-align: center;
+
+}

@@ -33,10 +33,9 @@ hr {
 .res:hover {
     text-decoration: none;
     color: azure;
-    padding: 3px;
-    border: 2px solid azure;
-    border-style: outset;
-    border-radius: 7px;
+    padding: 7px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
 #hd {
     font-size: xx-large;
@@ -124,16 +123,16 @@ code {
         width: 120px;
     }
     .header {
-        padding: 5px;
-        font-size: xx-small;
-        height: 25px;
+        padding: 7px;
+        font-size: x-small;
+        height: 34px;
     }
     #hd {
         font-size: x-small;
     }
     #hdr {
         font-size: x-small;
-        padding: 5px;
+        padding: 7px;
     }
     .c1 {
         margin: 0;

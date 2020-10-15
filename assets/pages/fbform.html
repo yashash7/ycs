@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="../css/fbform.css">
+        <title>Give Feedback | Report Abuse</title>
+    </head>
+
+    <body>
+        <form class="form w3-display-middle" method="POST" action="" name="Feedback">
+            <h3>Feedback | Report Abuse</h3><hr><br>
+            <label>Name: &nbsp; <input type="text" id="name" placeholder="Enter your name" required></label><br><br>
+            <label>Email: &nbsp; <input type="email" id="mail" placeholder="Enter your mail address" required></label><br><br>
+            <label>Phone: &nbsp; <input type="tel" id="phone" placeholder="Ex: +91 9876543210"></label><br><br>
+            <label>Type of Feedback: </label><br>
+            <input type="checkbox" id="comments" name="comments" value="fb1">
+            <label for="comments">Comments</label>&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" id="questions" name="questions" value="fb2">
+            <label for="questions">Questions</label><br>
+            <input type="checkbox" id="bugs" name="bugs" value="fb3">
+            <label for="bugs">Bug Reports</label>&nbsp;&nbsp;&nbsp;
+            <!--<input type="checkbox" id="features" name="features" value="fb3">
+            <label for="features">Feature Request</label>
+            <input type="checkbox" id="verbalabuse" name="verbalabuse" value="ra1">
+            <label for="verbalabuse">Verbal Abuse</label>
+            <input type="checkbox" id="illegal" name="illegal" value="ra3">
+            <label for="illegal">Illegal Content</label><br>-->
+            <input type="checkbox" id="report_abuse" name="report_abuse" value="ra2">
+            <label for="report_abuse">Report Abuse</label><br>
+            <input type="checkbox" id="copyright" name="copyright" value="fb3">
+            <label for="copyright">Copyrights Issues</label>&nbsp;&nbsp;&nbsp;
+            <input type="checkbox" id="other" name="other" value="oth">
+            <label for="other">other</label><br>
+            <label>Describe your issue</label><br>
+            <textarea id="issuedesc" name="issuedesc" rows="5" cols="34"></textarea>
+            <label>Suggestions for Improvement</label><br>
+            <textarea id="issuedesc" name="issuedesc" rows="2" cols="34"></textarea><br><br>
+            <button class="submit w3-btn">Submit</button>
+        </form>
+    </body>
+</html>
